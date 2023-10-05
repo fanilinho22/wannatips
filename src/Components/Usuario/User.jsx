@@ -10,36 +10,35 @@ function Home() {
         <div className='Home'>
             <Header />
             <header className="App-header">
-
-                <img src={logo} className="App-usuario" alt="usuario" />
-                <div className='info'>
-                <p className='usuario'>
-                    <b><a>Usuário </a></b>Vitor Pires
-                </p>
-                <a className='visitados'>
-                    <b>Locais Visitados</b>
-                </a>
-
-                <a className='interesse'>
-                    <b>Interesses de viagens</b>
-                </a>
-
-                <div className='perguntaBox'>
-                    Alabama
-                    <div className='botaoBox'>
-                        <input type='checkbox' id='topping' name='topping' value='panner' />Visitar
+                <div className='useres'>
+                    <div className='imager'>
+                        <img src={logo} className="App-usuario" alt="usuario" />
                     </div>
+                    <div className='info'>
+                        <p className='usuario'>
+                            <b><a>Usuário </a></b>Vitor Pires
+                        </p>
+                        <a className='interesse'>
+                            <b>Locais de Interesses</b>
+                        </a>
 
-                    New York
-                    <div className='botaoBox'>
-                        <input type='checkbox' id='topping' name='topping' value='panner' />Visitar
-                    </div>
+                        <div className='perguntaBox'>
+                            Alabama
+                            <div className='botaoBox'>
+                                <input type='checkbox' id='topping' name='topping' value='panner' />Visitar
+                            </div>
 
-                    Bielo Russia
-                    <div className='botaoBox'>
-                        <input type='checkbox' id='topping' name='topping' value='panner' />Visitar
+                            New York
+                            <div className='botaoBox'>
+                                <input type='checkbox' id='topping' name='topping' value='panner' />Visitar
+                            </div>
+
+                            Bielo Russia
+                            <div className='botaoBox'>
+                                <input type='checkbox' id='topping' name='topping' value='panner' />Visitar
+                            </div>
+                        </div>
                     </div>
-                </div>
                 </div>
             </header>
         </div>
